@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme - Dark theme for Threads-style look -->
+    <style name="Base.Theme.Tuprak1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Dark theme colors -->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="android:colorBackground">#000000</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+    </style>
+
+    <style name="Theme.Tuprak1" parent="Base.Theme.Tuprak1" />
+
+    <style name="ThreadsButton">
+        <item name="android:background">@drawable/button_threads</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+</resources>
